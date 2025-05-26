@@ -386,6 +386,11 @@ body {
     align-items: center;
     gap: 20px;
   }
+    img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 }
 
 @media (max-width: 600px) {
@@ -408,11 +413,12 @@ body {
     max-width: 95vw;
     padding: 15px;
   }
-}
 
-/* Make all images responsive */
-img {
+  img {
   max-width: 100%;
   height: auto;
   display: block;
 }
+}
+
+/* Make all images responsive */
